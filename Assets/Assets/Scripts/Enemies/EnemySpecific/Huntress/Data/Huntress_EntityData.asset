@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ca98ed2bd7fe1488d21e84cdb369c1, type: 3}
+  m_Name: Huntress_EntityData
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  damageHopSpeed: 6
+  wallCheckDistance: 1.2
+  ledgeCheckDistance: 0.4
+  groundCheckRadius: 0.3
+  minAgroDistances: 10
+  maxAgroDistances: 12
+  stunResistance: 3
+  stunRecoveryTime: 2
+  closeRangeActionDistance: 4
+  hitParticle: {fileID: 2665982712674390507, guid: f53b9a6b0ad043c4b8e93ed94632fe4f, type: 3}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 128
